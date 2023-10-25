@@ -4,7 +4,7 @@ on: [push]
 jobs:
   tests:
     name: run-tests
-    runs-on: windows-latest  #ubuntu-latest
+    runs-on: windows-latest, ubuntu-latest
     steps:
       - name: Checkout and setup
         uses: actions/checkout@v4
