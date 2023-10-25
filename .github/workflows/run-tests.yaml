@@ -5,6 +5,4 @@ jobs:
   tests:
     name: run-tests
     runs-on: windows-latest  #ubuntu-latest
-    steps:
-      - name: Checkout and setup
-        uses: action/checkout@v3
+
